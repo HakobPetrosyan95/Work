@@ -1,0 +1,74 @@
+{
+  "users": [
+    {
+      "id": "6c91",
+      "Name": "Bob Smithk",
+      "Email": "bob@mail.com",
+      "Role": "Editor",
+      "Status": "Active"
+    },
+    {
+      "id": "ce1a",
+      "Name": "David Brown",
+      "Email": "david@mail.com",
+      "Role": "Admin",
+      "Status": "Active"
+    },
+    {
+      "id": "975b",
+      "Name": "Emma",
+      "Email": "emma@mail.com",
+      "Role": "Editor",
+      "Status": "Inactive"
+    },
+    {
+      "id": "1534",
+      "Name": "Frank Miller",
+      "Email": "frank@mail.com",
+      "Role": "Viewer",
+      "Status": "Active"
+    },
+    {
+      "id": "cd64",
+      "Name": "Grace Wilson",
+      "Email": "grace@mail.com",
+      "Role": "Admin",
+      "Status": "Active"
+    },
+    {
+      "id": "41dd",
+      "Name": "Henry Taylor",
+      "Email": "henry@mail.com",
+      "Role": "Editor",
+      "Status": "Inactive"
+    },
+    {
+      "id": "651e",
+      "Name": "Irene Thomas",
+      "Email": "irene@mail.com",
+      "Role": "Viewer",
+      "Status": "Active"
+    },
+    {
+      "id": "f05b",
+      "Name": "Harry Kayne",
+      "Email": "Kayne@mail.ru",
+      "Role": "CF",
+      "Status": "Forward"
+    },
+    {
+      "id": "4ce5",
+      "Name": "Leonel Messi",
+      "Email": "Messi@mail.ru",
+      "Role": "RF",
+      "Status": "Right Forward"
+    },
+    {
+      "id": "9fcf",
+      "Name": "Jack Smith",
+      "Email": "Smith@mail.ru",
+      "Role": "rejisor",
+      "Status": "active"
+    }
+  ]
+}
