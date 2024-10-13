@@ -1,0 +1,15 @@
+.Header {
+    height: 260px;
+    text-align: center;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.Header h1 {
+    margin-bottom: 15px;
+    font-size: 2.3rem;
+    color: #007bff;
+    text-shadow: .2rem .2rem .8rem #007bffa0;
+}

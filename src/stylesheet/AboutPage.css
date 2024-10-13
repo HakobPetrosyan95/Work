@@ -1,0 +1,8 @@
+.AboutPage{
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    transform: translateX(-200px);
+}

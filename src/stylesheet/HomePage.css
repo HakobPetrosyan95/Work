@@ -1,0 +1,180 @@
+.HomePage {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    transform: translateX(-120px);
+  }
+
+.btn{
+  margin-top: 2px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn .btn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn.edit{
+  cursor: pointer;
+  width: 120px;
+  padding: 12px;
+  border: 1px solid green;
+  border-radius: 10px;
+  background-color: white;
+  transition: .5s ease-out;
+  &:hover{
+      background-color: green;
+      color: white;
+  }
+}
+
+.btn.delete{
+  cursor: pointer;
+  width: 120px;
+  padding: 12px;
+  border: 1px solid red;
+  border-radius: 10px;
+  background-color: white;
+  transition: .5s ease-out;
+  &:hover{
+      background-color: red;
+      color: white;
+  }
+}
+ 
+  .btn.add{
+    cursor: pointer;
+    width: 120px;
+    padding: 12px;
+    border: 1px solid rgb(38, 109, 216);
+    border-radius: 10px;
+    background-color: white;
+    transition: .5s ease-out;
+    &:hover{
+        background-color: #007bff;
+        color: white;
+    }
+}
+
+.btn span,.container span{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 200px;
+  padding: 12px;
+  border: 1px solid rgb(223, 205, 205);
+  border-radius: 10px;
+  font-size: 20px;
+  background-color: white;
+}
+  
+  .table {
+    max-width: 900px;
+    border-radius: 10px;
+    box-shadow: 0 0px 20px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #ffffff;
+  }
+  
+  th, td {
+    padding: 15px 20px;
+    text-align: left;
+    border-bottom: 1px solid #dee2e6;
+  }
+  
+  th {
+    background-color: hsl(205, 26%, 80%); 
+    color: black;
+    font-weight: bold;
+    text-align: center;
+  }
+  
+  tbody tr {
+    transition: background-color 0.3s;
+  }
+  
+  tbody tr:hover {
+    background-color: #f0f0f0; 
+  }
+  
+  tbody tr:nth-child(even) {
+    background-color: #f8f9fa; 
+  }
+  
+  tbody td {
+    color: #495057;
+  }
+  .HomePage table tbody button {
+    margin-right: 5px;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 4px;
+    background: #fff;
+    transition: background-color 0.3s ease;
+}
+
+
+.HomePage .container{
+  max-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.HomePage .container .item span{
+  font-size: 12px;
+}
+  
+.HomePage .table nav {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+.HomePage .table nav .pagination {
+  list-style: none;
+  display: flex;
+  gap: 10px; 
+  padding: 0;
+}
+
+.HomePage .table nav .pagination .page-item {
+  margin: 0;
+}
+
+.HomePage .table nav .pagination .page-link {
+  display: inline-block;
+  padding: 10px 15px;
+  background-color: #2089fa; 
+  color: #fff;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+    &:hover{
+      background-color: #0056b3;
+    }
+}
+
+.page-item.active {
+  pointer-events: none; 
+  &:hover{
+    background-color: #0056b3;
+  }
+}
+
+
+  @media (max-width: 768px) {
+    th, td {
+      padding: 12px;
+      font-size: 14px;
+    }
+  }
+  
+  
