@@ -1,0 +1,21 @@
+@import url('./Header.css');
+@import url('./HomePage.css');
+@import url('./NavigationPage.css');
+@import url('./AddPage.css');
+@import url('./AboutPage.css');
+@import url('./EditPage.css');
+@import url('./ReportPage.css');
+@import url('./SettingsPage.css');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    border: none; outline: none;
+    font-family: "Roboto Mono", monospace;
+}
+.App .item{
+    display: flex;
+    justify-content: space-around;
+}

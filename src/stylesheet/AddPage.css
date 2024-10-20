@@ -1,0 +1,92 @@
+.AddPage {
+    font-family:'Times New Roman', Times, serif;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    transform: translateX(-200px);
+
+}
+
+.goBack {
+    align-items: center;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    transition: background-color 0.3s;
+}
+
+.goBack:hover {
+    background-color: #0056b3;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+form {
+    margin-left: 200px;
+    width: 900px;
+    justify-content:space-around;
+    transform: translateX(-150px);
+    display: flex;
+    flex-direction: column;
+}
+
+.inputBox {
+    margin-bottom: 15px;
+}
+
+.inputBox label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.inputBox input {
+    width: 50%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.inputBox input:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+input[type='submit'] {
+    background-color: #28a745;
+    width: 50%;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+input[type='submit']:hover {
+    background-color: #218838;
+}
+
+@media (max-width: 600px) {
+    .AddPage {
+        padding: 15px;
+    }
+
+    .goBack, input[type='submit'] {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
