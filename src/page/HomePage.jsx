@@ -78,7 +78,6 @@ export function HomePage() {
               setValue(event.target.value);
               setCurrentPage(1);
             }}
-            onClick={() => setDisplay(true)}
           />
         </span>
       </div>
